@@ -1,0 +1,30 @@
+a.cipher {
+  color: #fcfcfc;
+  font-family: "Space Mono", monospace;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+.column-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.enter-book {
+  background-image: url("../images/bookdrawing.png");
+  background-color: transparent;
+  background-size: contain !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: none;
+  position: relative;
+  height: 30%;
+  width: 30%;
+  margin: 2rem 4rem;
+  opacity: 0.4;
+}
+
+.enter-book:hover {
+  opacity: 0.8;
+  transform: scale(1.4);
+}
