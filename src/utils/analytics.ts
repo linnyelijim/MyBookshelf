@@ -1,4 +1,4 @@
-import ReactGA from "react-ga";
+/* import ReactGA from "react-ga";
 
 export const initGA = (): void => {
   ReactGA.initialize("G-W7HJQ3E2JF");
@@ -22,3 +22,4 @@ export const logException = (description: string, fatal = false): void => {
     ReactGA.exception({ description, fatal });
   }
 };
+ */
