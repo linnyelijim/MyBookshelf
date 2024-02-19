@@ -1,3 +1,4 @@
+export {};
 /* import ReactGA from "react-ga";
 
 export const initGA = (): void => {
