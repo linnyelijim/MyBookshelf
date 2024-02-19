@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { useEffect } from 'next/client'
+import { useEffect } from 'react'
 import '../assets/transition.css'
 
 function Transition() {
