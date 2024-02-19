@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import '../style/cipher';
+import { useEffect } from 'next/client';
+import '../assets/cipher.css';
 
 function ScrambleText() {
     useEffect(() => {

@@ -70,7 +70,7 @@ button:focus-visible {
  */
 
 .fantasy-bg-image {
-  background-image: url("../images/fantasy.jpg");
+  background-image: url("../../public/images/fantasy.jpg");
   background-color: black;
   height: 100vh;
   background-position: center center;
@@ -129,11 +129,11 @@ h1 {
 }
 
 #wing-l {
-  background-image: url("../images/wingL2.png");
+  background-image: url("../../public/images/wingL2.png");
 }
 
 #wing-r {
-  background-image: url("../images/wingR2.png");
+  background-image: url("../../public/images/wingR2.png");
 }
 
 #wing-l,
