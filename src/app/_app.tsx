@@ -1,3 +1,17 @@
+import React from "react";
+import type { AppProps } from "next/app";
+import Layout from "./layout"; // Path to your layout component
+
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
+}
+
+export default MyApp;
+
 /* import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { AppProps } from 'next/app';
@@ -22,16 +36,3 @@ export default function MyApp({ Component, pageProps }: AppProps){
     </>
   );
 } */
-import React from "react";
-import type { AppProps } from "next/app";
-import Layout from "./layout"; // Path to your layout component
-
-function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
-  );
-}
-
-export default MyApp;
