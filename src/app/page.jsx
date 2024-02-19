@@ -1,3 +1,5 @@
+// page.jsx
+import React from "react";
 import Link from "next/link";
 import Script from "next/script";
 import ScrambleText from "../components/cipher";
@@ -8,18 +10,6 @@ import "../assets/app.css";
 export default function Index() {
   return (
     <div>
-      <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-GKSHNP6KPK" />
-        <Script id="google-analytics">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          
-            gtag('config', 'G-GKSHNP6KPK');
-        `}
-        </Script>
-      </div>
       <div id="__next">
         <React.Fragment>
           <ScrambleText />
